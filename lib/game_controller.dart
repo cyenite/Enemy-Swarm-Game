@@ -18,7 +18,7 @@ class GameController extends Game {
     Paint backgroundPaint = Paint()..color = Color(0xFFFAFAFA);
     c.drawRect(background, backgroundPaint);
 
-    player.render(c)
+    player.render(c);
   }
 
   void update(double t) {}
